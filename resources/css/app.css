@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+.input{
+    @apply w-full py-[6px] px-2 rounded-md focus:ring-primary border-gray-300 text-[13px]
+}
